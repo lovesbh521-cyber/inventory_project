@@ -115,7 +115,7 @@ def test_sorting() -> None:
 
 
 def test_report_numbers() -> None:
-    """The count, the stock value, the low stock list, and the most valuable one are right."""
+    """The count, the stock value, the low stock list, and the most valuable product are right."""
     inventory = filled(
         product(1, "Shaft", 5, 12.0),
         product(2, "Ball bearing 6204", 40, 4.5),
